@@ -35,4 +35,3 @@ jobs:
 
       - name: Docker push latest
         run: docker push docker.pkg.github.com/${{ env.OWNER }}/${{ env.REPO }}/${{ env.PACKAGE }}
-
